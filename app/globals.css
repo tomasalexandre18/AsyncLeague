@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+
+:root {
+    /* Couleurs principales */
+    --color-primary: #183153;       /* Bleu Nuit */
+    --color-background: #FAFAFA;    /* Blanc Cassé */
+
+    /* Couleurs secondaires */
+    --color-accent: #4A90E2;        /* Bleu Clair (boutons/liens) */
+    --color-secondary: #6D6D6D;     /* Gris Moyen (textes secondaires/icônes) */
+    --color-highlight: #FFD166;     /* Jaune doux (notifications/accents) */
+
+    /* Typographie */
+    --font-title: 'Montserrat', sans-serif;
+    --font-body: 'Lato', sans-serif;
+
+    /* Tailles typographiques recommandées */
+    --font-size-title: 32px;
+    --font-size-subtitle: 22px;
+    --font-size-body: 16px;
+
+    /* Espacements recommandés */
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+
+    /* Bordures et effets */
+    --border-radius: 6px;
+    --box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+    --transition-duration: 0.4s;
+}
+
+
+body {
+    color: var(--color-primary);
+    font-family: var(--font-body);
+    font-size: var(--font-size-body);
+    min-height: 100vh;
+}
