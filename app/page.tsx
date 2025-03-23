@@ -5,7 +5,7 @@ export default function Home() {
       <>
           <Navbar></Navbar>
           <div className="absolute top-0 left-0 w-full h-full z-[-1]">
-                <video autoPlay loop muted className="w-full h-full object-cover" src={"/7670835-uhd_3840_2160_30fps.mp4"}></video>
+                <video autoPlay loop muted className="w-full h-full object-cover" src={"/7670835-uhd_3840_2160_30fps_opt.mp4"}></video>
           </div>
             <main className="flex flex-col h-[calc(100vh-76px)] items-center justify-center w-full">
                 <div className="flex flex-row flex-wrap gap-3 justify-center items-center w-full">
